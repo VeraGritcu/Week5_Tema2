@@ -11,7 +11,7 @@ namespace Week5_Tema2
         static void Main(string[] args)
         {
             var alex = new Person("Alex");
-            
+
 
             Producer bmw = new Producer(CarProducer.BMW);
             Producer ford = new Producer(CarProducer.Ford);
@@ -39,12 +39,7 @@ namespace Week5_Tema2
             ///// after  weeks
 
             skodaOrder.OrderDelivered();
-
-
-
-            
-           
-
         }
     }
+
 }
